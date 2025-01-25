@@ -1,35 +1,50 @@
 #title{
-    color: lightgray;
-    text-align: center;
+    background-color: white;
     font-family: Roboto, Helvetica Neue, Lato, Open Sans;
-    width: 100%;
     height: 100vh;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    margin-top: 150px;
-
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    align-items: center
+  
 }
-#title h2 {
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    gap: 20px;
+}
+#title h2{
     margin: 0; 
-    font-size: 40px; 
+    font-size: 60px; 
     color: #ccc; 
 }
 
+#title h3 {
+    color: #383838;
+}
+
+
 .img-me {
-   width: 100px;
-   height: 200px;
-   background-image: url(img/_KTF3153.jpg);
-   background-size: contain;
+   width: 400px;
+   height: 400px;
+   background-image: url(img/portfolio\ pic.jpg);
+   background-size: cover;
+   border-radius: 50%;
+   background-position: center;
+   margin-right: 150px;
+   align-items: center;
 }
 
 
  /*adding typing to name in title*/
-.type-writer {    
+.type-writer {  
+    margin: 0;  
     overflow: hidden;
     white-space: nowrap;
-    color: #ccc; 
-    font-size: 50px;
+    color: gray; 
+    font-size: 60px;
     border-right: 5px solid #ccc;
     display: inline-block;
     animation: typewriter 2s steps(19) forwards,
@@ -41,7 +56,7 @@
         width: 0%;
     }
     to {
-       width: 35%;  /*stop cursor after name*/
+       width: 85%;  /*stop cursor after name*/
     }
 }
 
@@ -55,16 +70,15 @@
 }
 
 #about{
-    color: lightgray;
+    color: white;
     text-align: center;
     font-family: Roboto, Helvetica Neue, Lato, Open Sans;
     font-size: 30px;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color:lavender;
+    background-color: #BCD8DA;
 
 
 }
@@ -75,7 +89,7 @@
     font-size: 30px;
     width: 100%;
     height: 50vh;
-    background-color:cornflowerblue;
+    background-color: aliceblue;
     display: flex;
     justify-content: center;
 
@@ -85,7 +99,7 @@ body {
     margin: 0%;
 }
 .navbar{
-   background-color: cadetblue;
+   background-color: #81B7BA;
    overflow: hidden;
    position:fixed;
    width: 100%;
@@ -107,4 +121,5 @@ html {
 .container {
     width: 100%;
     height: 100vh;
+    
 }
