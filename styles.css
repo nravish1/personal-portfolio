@@ -79,6 +79,7 @@
     display: flex;
     justify-content: center;
     background-color: #BCD8DA;
+    flex-direction: column;
 }
 #contact{
     color: lightgray;
@@ -90,7 +91,13 @@
     background-color: aliceblue;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    
 
+}
+#contact h2 {
+    font-family: Roboto, Helvetica Neue, Lato, Open Sans;
+    font-size: 20px;
 }
 body {
     background-color:aliceblue;
